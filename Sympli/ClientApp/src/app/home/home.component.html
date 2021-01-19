@@ -1,0 +1,19 @@
+<h1>Searching result</h1>
+<p *ngIf="!result"><em>Loading...</em></p>
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="result">
+  <thead>
+    <tr>
+      <th>Keyword</th>
+      <th>Searching Engine</th>
+      <th>Ranking</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let res of result">
+      <td>{{ res.keyword }}</td>
+      <td>{{ res.source }}</td>
+      <td>{{ res.rank }}</td>
+    </tr>
+  </tbody>
+</table>
+
