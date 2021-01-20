@@ -20,12 +20,12 @@
  Something more
  1. as a senior full stack developer, I complete the front end component and extension 1 & 2
  2. peformance: using cache / async function to avoid waiting more times on front time
-    reliability: TDD, writing independent test cases
-	scalability: everything is configurable at appsettings.json
+ 3. reliability: TDD, writing independent test cases
+ 4. scalability: everything is configurable at appsettings.json
 	1. add more (search) keywords as you like
 	2. "website" is the rank keyword
 	3. add more search engines as you like, 
-	    "parse" is the regular express that we use to parse the search result for each search engine.
+	    "parse" is the regular expression that we use to parse the search result for each search engine.
 		we can update it just in case if the search engine changes its html layout.
 		so we don't need to worry our program will break if for example google changes sth on its side.
 		
