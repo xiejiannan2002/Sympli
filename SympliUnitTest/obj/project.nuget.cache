@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "32F50ffpdHgIMw2WdC8COSVUvbnF0ctt57zQZy2s1nXSCUjhhaJBa9rfIJ4ORaB94bhhcFlUzcpYdCUtxQiPLg==",
+  "dgSpecHash": "SVQ66Nbf7Kw5XCj3w/Yy/O1cmOoOwSgb33h1mXNWRHx77BTfxCe8/uDdHfL4ORoEuBWfc3HKWkbedOrhwSyRww==",
   "success": true,
   "projectFilePath": "C:\\Users\\JasonX\\Desktop\\Sympli\\SympliUnitTest\\SympliUnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JasonX\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
+    "C:\\Users\\JasonX\\.nuget\\packages\\htmlagilitypack.netcore\\1.5.0.1\\htmlagilitypack.netcore.1.5.0.1.nupkg.sha512",
     "C:\\Users\\JasonX\\.nuget\\packages\\microsoft.aspnetcore.nodeservices\\3.1.11\\microsoft.aspnetcore.nodeservices.3.1.11.nupkg.sha512",
     "C:\\Users\\JasonX\\.nuget\\packages\\microsoft.aspnetcore.spaservices\\3.1.11\\microsoft.aspnetcore.spaservices.3.1.11.nupkg.sha512",
     "C:\\Users\\JasonX\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\3.1.11\\microsoft.aspnetcore.spaservices.extensions.3.1.11.nupkg.sha512",
@@ -115,13 +116,7 @@
     "C:\\Users\\JasonX\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\JasonX\\.nuget\\packages\\xunit\\2.4.1\\xunit.2.4.1.nupkg.sha512",
-    "C:\\Users\\JasonX\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
-    "C:\\Users\\JasonX\\.nuget\\packages\\xunit.analyzers\\0.10.0\\xunit.analyzers.0.10.0.nupkg.sha512",
-    "C:\\Users\\JasonX\\.nuget\\packages\\xunit.assert\\2.4.1\\xunit.assert.2.4.1.nupkg.sha512",
-    "C:\\Users\\JasonX\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
-    "C:\\Users\\JasonX\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
-    "C:\\Users\\JasonX\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512"
+    "C:\\Users\\JasonX\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }

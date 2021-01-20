@@ -8,6 +8,26 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "HtmlAgilityPack.NetCore/1.5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Linq": "4.1.0",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Runtime.InteropServices": "4.1.0",
+          "System.Text.RegularExpressions": "4.1.0",
+          "System.Threading": "4.0.11",
+          "System.Xml.XPath": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/HtmlAgilityPack.NetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/HtmlAgilityPack.NetCore.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.NodeServices/3.1.11": {
         "type": "package",
         "dependencies": {
@@ -1926,83 +1946,31 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "xunit/2.4.1": {
+      "System.Xml.XPath/4.0.1": {
         "type": "package",
         "dependencies": {
-          "xunit.analyzers": "0.10.0",
-          "xunit.assert": "[2.4.1]",
-          "xunit.core": "[2.4.1]"
-        }
-      },
-      "xunit.abstractions/2.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/xunit.abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/xunit.abstractions.dll": {}
-        }
-      },
-      "xunit.analyzers/0.10.0": {
-        "type": "package"
-      },
-      "xunit.assert/2.4.1": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1"
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Globalization": "4.0.11",
+          "System.IO": "4.1.0",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Threading": "4.0.11",
+          "System.Xml.ReaderWriter": "4.0.11"
         },
         "compile": {
-          "lib/netstandard1.1/xunit.assert.dll": {}
+          "ref/netstandard1.3/System.Xml.XPath.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.1/xunit.assert.dll": {}
-        }
-      },
-      "xunit.core/2.4.1": {
-        "type": "package",
-        "dependencies": {
-          "xunit.extensibility.core": "[2.4.1]",
-          "xunit.extensibility.execution": "[2.4.1]"
-        },
-        "build": {
-          "build/xunit.core.props": {},
-          "build/xunit.core.targets": {}
-        },
-        "buildMultiTargeting": {
-          "buildMultiTargeting/xunit.core.props": {},
-          "buildMultiTargeting/xunit.core.targets": {}
-        }
-      },
-      "xunit.extensibility.core/2.4.1": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "xunit.abstractions": "2.0.3"
-        },
-        "compile": {
-          "lib/netstandard1.1/xunit.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.1/xunit.core.dll": {}
-        }
-      },
-      "xunit.extensibility.execution/2.4.1": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "xunit.extensibility.core": "[2.4.1]"
-        },
-        "compile": {
-          "lib/netstandard1.1/xunit.execution.dotnet.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.1/xunit.execution.dotnet.dll": {}
+          "lib/netstandard1.3/System.Xml.XPath.dll": {}
         }
       },
       "Sympli/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "HtmlAgilityPack.NetCore": "1.5.0.1",
           "Microsoft.AspNetCore.SpaServices.Extensions": "3.1.11",
           "System.Runtime.Caching": "5.0.0"
         },
@@ -2048,6 +2016,19 @@
         "build/netstandard1.0/coverlet.core.pdb",
         "coverlet.collector.1.2.0.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "HtmlAgilityPack.NetCore/1.5.0.1": {
+      "sha512": "UaLQtf8QMM1cxUDPMMBcrgX3A/56P+y4mHidgWaoiieaEG9eyODVRIKt6cQtBZaHLOVX3abGdMGVk2RnlWUAOw==",
+      "type": "package",
+      "path": "htmlagilitypack.netcore/1.5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "htmlagilitypack.netcore.1.5.0.1.nupkg.sha512",
+        "htmlagilitypack.netcore.nuspec",
+        "lib/net45/HtmlAgilityPack.NetCore.dll",
+        "lib/netstandard1.3/HtmlAgilityPack.NetCore.dll"
       ]
     },
     "Microsoft.AspNetCore.NodeServices/3.1.11": {
@@ -6445,108 +6426,42 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "xunit/2.4.1": {
-      "sha512": "XNR3Yz9QTtec16O0aKcO6+baVNpXmOnPUxDkCY97J+8krUYxPvXT1szYYEUdKk4sB8GOI2YbAjRIOm8ZnXRfzQ==",
+    "System.Xml.XPath/4.0.1": {
+      "sha512": "UWd1H+1IJ9Wlq5nognZ/XJdyj8qPE4XufBUkAW59ijsCPjZkZe0MUzKKJFBr+ZWBe5Wq1u1d5f2CYgE93uH7DA==",
       "type": "package",
-      "path": "xunit/2.4.1",
+      "path": "system.xml.xpath/4.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
-        "xunit.2.4.1.nupkg.sha512",
-        "xunit.nuspec"
-      ]
-    },
-    "xunit.abstractions/2.0.3": {
-      "sha512": "pot1I4YOxlWjIb5jmwvvQNbTrZ3lJQ+jUGkGjWE3hEFM0l5gOnBWS+H3qsex68s5cO52g+44vpGzhAt+42vwKg==",
-      "type": "package",
-      "path": "xunit.abstractions/2.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net35/xunit.abstractions.dll",
-        "lib/net35/xunit.abstractions.xml",
-        "lib/netstandard1.0/xunit.abstractions.dll",
-        "lib/netstandard1.0/xunit.abstractions.xml",
-        "lib/netstandard2.0/xunit.abstractions.dll",
-        "lib/netstandard2.0/xunit.abstractions.xml",
-        "xunit.abstractions.2.0.3.nupkg.sha512",
-        "xunit.abstractions.nuspec"
-      ]
-    },
-    "xunit.analyzers/0.10.0": {
-      "sha512": "4/IDFCJfIeg6bix9apmUtIMwvOsiwqdEexeO/R2D4GReIGPLIRODTpId/l4LRSrAJk9lEO3Zx1H0Zx6uohJDNg==",
-      "type": "package",
-      "path": "xunit.analyzers/0.10.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "analyzers/dotnet/cs/xunit.analyzers.dll",
-        "tools/install.ps1",
-        "tools/uninstall.ps1",
-        "xunit.analyzers.0.10.0.nupkg.sha512",
-        "xunit.analyzers.nuspec"
-      ]
-    },
-    "xunit.assert/2.4.1": {
-      "sha512": "O/Oe0BS5RmSsM+LQOb041TzuPo5MdH2Rov+qXGS37X+KFG1Hxz7kopYklM5+1Y+tRGeXrOx5+Xne1RuqLFQoyQ==",
-      "type": "package",
-      "path": "xunit.assert/2.4.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard1.1/xunit.assert.dll",
-        "lib/netstandard1.1/xunit.assert.xml",
-        "xunit.assert.2.4.1.nupkg.sha512",
-        "xunit.assert.nuspec"
-      ]
-    },
-    "xunit.core/2.4.1": {
-      "sha512": "Zsj5OMU6JasNGERXZy8s72+pcheG6Q15atS5XpZXqAtULuyQiQ6XNnUsp1gyfC6WgqScqMvySiEHmHcOG6Eg0Q==",
-      "type": "package",
-      "path": "xunit.core/2.4.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/xunit.core.props",
-        "build/xunit.core.targets",
-        "buildMultiTargeting/xunit.core.props",
-        "buildMultiTargeting/xunit.core.targets",
-        "xunit.core.2.4.1.nupkg.sha512",
-        "xunit.core.nuspec"
-      ]
-    },
-    "xunit.extensibility.core/2.4.1": {
-      "sha512": "yKZKm/8QNZnBnGZFD9SewkllHBiK0DThybQD/G4PiAmQjKtEZyHi6ET70QPU9KtSMJGRYS6Syk7EyR2EVDU4Kg==",
-      "type": "package",
-      "path": "xunit.extensibility.core/2.4.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net452/xunit.core.dll",
-        "lib/net452/xunit.core.dll.tdnet",
-        "lib/net452/xunit.core.xml",
-        "lib/net452/xunit.runner.tdnet.dll",
-        "lib/net452/xunit.runner.utility.net452.dll",
-        "lib/netstandard1.1/xunit.core.dll",
-        "lib/netstandard1.1/xunit.core.xml",
-        "xunit.extensibility.core.2.4.1.nupkg.sha512",
-        "xunit.extensibility.core.nuspec"
-      ]
-    },
-    "xunit.extensibility.execution/2.4.1": {
-      "sha512": "7e/1jqBpcb7frLkB6XDrHCGXAbKN4Rtdb88epYxCSRQuZDRW8UtTfdTEVpdTl8s4T56e07hOBVd4G0OdCxIY2A==",
-      "type": "package",
-      "path": "xunit.extensibility.execution/2.4.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net452/xunit.execution.desktop.dll",
-        "lib/net452/xunit.execution.desktop.xml",
-        "lib/netstandard1.1/xunit.execution.dotnet.dll",
-        "lib/netstandard1.1/xunit.execution.dotnet.xml",
-        "xunit.extensibility.execution.2.4.1.nupkg.sha512",
-        "xunit.extensibility.execution.nuspec"
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Xml.XPath.dll",
+        "lib/netstandard1.3/System.Xml.XPath.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Xml.XPath.dll",
+        "ref/netstandard1.3/System.Xml.XPath.dll",
+        "ref/netstandard1.3/System.Xml.XPath.xml",
+        "ref/netstandard1.3/de/System.Xml.XPath.xml",
+        "ref/netstandard1.3/es/System.Xml.XPath.xml",
+        "ref/netstandard1.3/fr/System.Xml.XPath.xml",
+        "ref/netstandard1.3/it/System.Xml.XPath.xml",
+        "ref/netstandard1.3/ja/System.Xml.XPath.xml",
+        "ref/netstandard1.3/ko/System.Xml.XPath.xml",
+        "ref/netstandard1.3/ru/System.Xml.XPath.xml",
+        "ref/netstandard1.3/zh-hans/System.Xml.XPath.xml",
+        "ref/netstandard1.3/zh-hant/System.Xml.XPath.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.xml.xpath.4.0.1.nupkg.sha512",
+        "system.xml.xpath.nuspec"
       ]
     },
     "Sympli/1.0.0": {
@@ -6561,8 +6476,7 @@
       "MSTest.TestFramework >= 2.1.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "Sympli >= 1.0.0",
-      "coverlet.collector >= 1.2.0",
-      "xunit >= 2.4.1"
+      "coverlet.collector >= 1.2.0"
     ]
   },
   "packageFolders": {
@@ -6629,10 +6543,6 @@
           "coverlet.collector": {
             "target": "Package",
             "version": "[1.2.0, )"
-          },
-          "xunit": {
-            "target": "Package",
-            "version": "[2.4.1, )"
           }
         },
         "imports": [

@@ -9,10 +9,16 @@
     </tr>
   </thead>
   <tbody>
+    <tr *ngIf="result && result.length == 0">
+      <td colspan="3">
+        <label>No Searching result available</label>
+      </td>
+    </tr>
     <tr *ngFor="let res of result">
       <td>{{ res.keyword }}</td>
       <td>{{ res.source }}</td>
-      <td>{{ res.rank }}</td>
+      <td *ngIf=" res.rank > 0 && res.rank <= 100">{{ res.rank }}</td>
+      <td *ngIf=" res.rank == 0 || res.rank > 100">Not Found</td>
     </tr>
   </tbody>
 </table>

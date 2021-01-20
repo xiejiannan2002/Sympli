@@ -26,14 +26,12 @@ namespace Sympli.Controllers
         {
             try
             {
-                string website = _config.GetValue<string>("SearchPara:website");
-                string[] keywords = _config.GetSection("SearchPara:keywords").Get<string[]>();
-                string[] engines = _config.GetSection("SearchPara:engines").Get<string[]>();
-                return Data.SearchFromInternet(website, keywords, engines);
+                DataProcessing dtProcessor = new DataProcessing(_config);
+                return dtProcessor.SearchFromInternet();
             }
             catch(Exception ex)
             {
-                return null;
+                return new List<SearchResult>();
             }
 
         }
